@@ -1,11 +1,7 @@
 #! /bin/bash
 
-#      _____  __________      
-#  __ / / _ \/ ___/_  _/__ ___ ___ _
-# / // / // / /__  / // -_) _ `/  ' \ 
-# \___/____/\___/ /_/ \__/\_,_/_/_/_/ 
 #
-# Copyright 2016 JDCTeam
+# Copyright 2018 AvaroAOSP
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -20,15 +16,15 @@
 # limitations under the License.
 
 
-TEAM_NAME="jdc"
-TARGET=jflte
+TEAM_NAME="avaro"
+TARGET=avaro
 VARIANT=userdebug
 AOSP_VER=7.0
-OUT="out/target/product/jflte"
-FILENAME=AOSP-"$AOSP_VER"-"$(date +%Y%m%d)"-"$TARGET"-GSM."$USER"
+OUT="out/target/product/avaro"
+FILENAME=AvaroAOSP-"$AOSP_VER"-"$(date +%Y%m%d)"-"$TARGET"-GSM."$USER"
 
 UNIFIED=false
-FILENAME2=AOSP-"$AOSP_VER"-"$(date +%Y%m%d)"-"$TARGET"."$USER"
+FILENAME2=AvaroAOSP-"$AOSP_VER"-"$(date +%Y%m%d)"-"$TARGET"."$USER"
 
 buildROM()
 {
