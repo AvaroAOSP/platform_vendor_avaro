@@ -21,7 +21,7 @@ TARGET=avaro
 VARIANT=userdebug
 AOSP_VER=7.0
 OUT="out/target/product/avaro"
-FILENAME=AOSP-"$AOSP_VER"-"$(date +%Y%m%d)"-"$TARGET"-GSM."$USER"
+FILENAME=AvaroAOSP-"$AOSP_VER"-"$(date +%Y%m%d)"-"$TARGET"-GSM."$USER"
 
 UNIFIED=false
 FILENAME2=AvaroAOSP-"$AOSP_VER"-"$(date +%Y%m%d)"-"$TARGET"."$USER"
