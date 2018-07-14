@@ -1,4 +1,4 @@
-# JDCTeam AOSP vendor configuration
+# AvaroAOSP vendor configuration
 
 By AntaresOne and -+BB+-
 
