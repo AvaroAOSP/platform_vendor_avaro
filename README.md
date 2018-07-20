@@ -1,8 +1,9 @@
 # AvaroAOSP vendor configuration
 
-By AntaresOne and -+BB+-
+AvaroAOSP addiional files.
 
-Copyright (c) 2015-2017, Jflte DevConnection Team
+
+Copyright (c) 2018, Avaro Custom ROM Project
 
 Copyrights (c) 2015, The CyanogenMod Project
 
