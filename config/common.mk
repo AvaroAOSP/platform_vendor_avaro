@@ -106,7 +106,7 @@ PRODUCT_COPY_FILES += \
     
 # AvaroAOSP Specific Files
 PRODUCT_COPY_FILES += \
-    avaro/rom/info.md:system/etc/avaro/info.md
+    vendor/aosp/avaro/info.md:system/etc/avaro/info.md
 
 # JDC-specific init file
 PRODUCT_COPY_FILES += \
@@ -132,7 +132,7 @@ PRODUCT_PACKAGES += \
 
 # Changelog
 PRODUCT_COPY_FILES += \
-    vendor/aosp/Changelog.md:system/etc/Changelog.md
+    vendor/aosp/Changelog.md:system/etc/avaro/Changelog.md
 
 # Needed by some RILs and for some gApps packages
 PRODUCT_PACKAGES += \
