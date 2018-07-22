@@ -1,4 +1,4 @@
-# Copyright (C) 2016 The JDCTeam
+# Copyright (C) 2018 Avaro Custom ROM Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -43,7 +43,7 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/bin/format.sh:install/bin/format.sh
 
-# Custom JDCTeam packages
+# Custom AvaroAOSP packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
     Jelly \
@@ -52,6 +52,7 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     OTAUpdates \
+    Phonograph\
     Stk \
     Substratum \
     ThemeInterfacer \
@@ -102,6 +103,10 @@ endif
 # init.d support
 PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/etc/init.d/00banner:system/etc/init.d/00banner
+    
+# AvaroAOSP Specific Files
+PRODUCT_COPY_FILES += \
+    avaro/rom/info.md:system/etc/avaro/info.md
 
 # JDC-specific init file
 PRODUCT_COPY_FILES += \
