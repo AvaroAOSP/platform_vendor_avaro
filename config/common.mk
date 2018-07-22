@@ -150,6 +150,7 @@ USE_DEX2OAT_DEBUG ?= false
 ifeq ($(WITH_ROOT),true)
  PRODUCT_COPY_FILES += \
     vendor/aosp/prebuilt/common/magisk/Magisk.zip:install/magisk/Magisk.zip
+    vendor/aosp/prebuilt/common/priv-app/Magisk/Magisk.apk:system/priv-app/Magisk/Magisk.apk
 else
 $(warning Root method is undefined, please use 'WITH_ROOT := true' to define it)
 endif
