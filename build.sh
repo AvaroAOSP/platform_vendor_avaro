@@ -19,16 +19,18 @@
 TEAM_NAME="avaro"
 TARGET=avaro
 VARIANT=userdebug
-AOSP_VER=7.0
+AOSP_VER=7.1.2_r36
+AVARO_VER=1.0
 OUT="out/target/product/avaro"
-FILENAME=AvaroAOSP-"$AOSP_VER"-"$(date +%Y%m%d)"-"$TARGET"-GSM."$USER"
+FILENAME=AvaroAOSP-"$AVARO_VER"-"$AOSP_VER"-"$(date +%Y%m%d)"-"$TARGET"-GSM."$USER"
 
 UNIFIED=false
-FILENAME2=AvaroAOSP-"$AOSP_VER"-"$(date +%Y%m%d)"-"$TARGET"."$USER"
+FILENAME2=AvaroAOSP-"$AVARO_VER"-"$AOSP_VER"-"$(date +%Y%m%d)"-"$TARGET"."$USER"
 
 buildROM()
 {
 	echo "Building AvaroAOSP..."
+	echo "Feel our ROM smothness!"
 	time schedtool -B -n 1 -e ionice -n 1 make otapackage -j"$CPU_NUM" "$@"
 	if [ "$?" == 0 ]; then
 		echo "Build done"
