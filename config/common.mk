@@ -17,7 +17,7 @@ include vendor/aosp/sdclang/sdclang.mk
 
 include vendor/aosp/config/version.mk
 
-PRODUCT_BRAND ?= JDCTeam
+PRODUCT_BRAND ?= AvaroAOSP
 
 # Use signing keys for user builds
 ifeq ($(TARGET_BUILD_VARIANT),user)
