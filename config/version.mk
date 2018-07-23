@@ -21,4 +21,4 @@ endif
 JDC_VERSION := $(PLATFORM_VERSION)-$(shell date +%Y%m%d)-$(JDC_BUILD_TYPE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.jdc.version=$(JDC_VERSION)
+    ro.avaro.version=$(JDC_VERSION)
