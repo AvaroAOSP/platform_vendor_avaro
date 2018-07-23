@@ -132,7 +132,7 @@ PRODUCT_PACKAGES += \
 
 # Changelog
 PRODUCT_COPY_FILES += \
-    vendor/aosp/Changelog.md:system/etc/avaro/Changelog.md
+    vendor/aosp/Changelog.md:system/etc/Changelog.md
 
 # Needed by some RILs and for some gApps packages
 PRODUCT_PACKAGES += \
