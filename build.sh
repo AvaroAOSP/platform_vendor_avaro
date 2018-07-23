@@ -19,7 +19,7 @@
 TEAM_NAME="avaro"
 TARGET=avaro
 VARIANT=userdebug
-AOSP_VER=7.1.2_r36
+AOSP_VER=7.1.2
 AVARO_VER=1.0
 OUT="out/target/product/avaro"
 FILENAME=AvaroAOSP-"$AVARO_VER"-"$AOSP_VER"-"$(date +%Y%m%d)"-"$TARGET"-GSM."$USER"
