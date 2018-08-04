@@ -36,7 +36,7 @@ $(call inherit-product, device/xiaomi/ferrari/aosp_ferrari.mk)
 
 PRODUCT_NAME := aosp_ferrari
 
-PRODUCT_DEVICE := ferrar
+PRODUCT_DEVICE := ferrari
 
 PRODUCT_BRAND := xiaomi
 
@@ -46,7 +46,7 @@ PRODUCT_MODEL := Xiaomi Mi 4i
 
 
 
-DEVICE_MAINTAINERS := Alif Fathur
+DEVICE_MAINTAINERS := Alif Fathur(rev31one)
 
 
 
